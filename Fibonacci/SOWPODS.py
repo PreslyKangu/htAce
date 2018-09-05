@@ -16,3 +16,6 @@ random_index = random.randint(0, len(details))
 
 #now take the details
 print("Random details:", details[random_index])
+
+
+
