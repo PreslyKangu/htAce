@@ -1,26 +1,3 @@
-def printHang(n):
-    gal = [['---- '],
-           ['|  | '],
-           ['|    '],
-           ['|    '],
-           ['|    ']]
-    if n < 6:
-        gal[2] = ['|  o ']
-    if n < 5:
-        gal[3] = ['| /  ']
-    if n < 4:
-        gal[3] = ['| / \\']
-    if n < 3:
-        gal[3] = ['| /|\\']
-    if n < 2:
-        gal[4] = ['| /  ']
-    if n < 1:
-        gal[4] = ['| / \\']
-    for i in gal:
-        print(''.join(i))
-
-
-
 
 def word_pick():
     import random
@@ -38,8 +15,8 @@ if __name__=="__main__":
     
         hidden_word = ""
     
-        #for i in new_word:
-            #print (i + " ", end=" ")
+        for i in new_word:
+            print (i + " ", end=" ")
     
         print ("HANGMAN!\n")
         print ("You have 6 incorrect tries to guess the letters. (USE CAPS LOCK!)\n")
