@@ -1,4 +1,5 @@
 # first method Using Recursions
+
 def fibonnaci1 (k):
 	if k == 1 or k == 2:
 		return 1
@@ -8,6 +9,7 @@ for i  in range(1,10):
 	print (fibonnaci1(i))
 
 #second method.. Using Loops
+
 def fibonnaci2(k):
 	a,b = 1,1
 	for i in range(k-1):
@@ -19,6 +21,7 @@ for i  in range(1,10):
 	print (fibonnaci2(i))
 
 #third method... Using Generators
+
 def fibonnaci3():
 	a,b = 1,1
 	while True:
