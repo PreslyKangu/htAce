@@ -1,4 +1,4 @@
-
+ 
 def word_pick():
     import random
     return random.choice(open('sowpods.txt').read().split()).strip()
